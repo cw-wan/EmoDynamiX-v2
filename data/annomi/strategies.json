@@ -1,0 +1,9 @@
+{
+  "Reflection simple": 0,
+  "Reflection complex": 1,
+  "Question closed": 2,
+  "Question open": 3,
+  "Provide information": 4,
+  "Other": 5,
+  "Provide suggestion": 6
+}

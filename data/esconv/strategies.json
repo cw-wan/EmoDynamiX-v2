@@ -1,0 +1,10 @@
+{
+  "Reflection of feelings": 0,
+  "Self-disclosure": 1,
+  "Question": 2,
+  "Affirmation and Reassurance": 3,
+  "Providing Suggestions": 4,
+  "Restatement or Paraphrasing": 5,
+  "Information": 6,
+  "Others":7
+}
