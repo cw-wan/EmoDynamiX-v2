@@ -1,6 +1,6 @@
 python main.py \
 --mode test \
---load_checkpoint 1400 \
+--load_checkpoint 2600 \
 --lr 4e-6 \
 --total_epochs 5 \
 --total_steps 2000 \
