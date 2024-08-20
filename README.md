@@ -4,7 +4,7 @@
 
 |              Model               |                                                                                        URL                                                                                        |
 |:--------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|       EmoDynamiX on ESConv       |                                           [link](https://drive.google.com/file/d/1CzUd6O8NxP0eXLp9O31keJ7l0roVTytn/view?usp=drive_link)                                           |
+|       EmoDynamiX on ESConv       |                                           [link](https://drive.google.com/file/d/1BQUE-g-bjf4QOCTUdrb35EevHnD8ElQO/view?usp=drive_link)                                           |
 |       EmoDynamiX on AnnoMI       |                                           [link](https://drive.google.com/file/d/1VWhx9xoC7L9roSPeP9hvXjGlyjzs-kY5/view?usp=drive_link)                                           |
 
 Unzip to the project root directory.

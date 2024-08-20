@@ -9,6 +9,7 @@ from torch.utils.data import DataLoader
 from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 import transformers
 from transformers import AdamW, TrainingArguments
+from metrics import preference_bias
 
 
 class TrainerForMulticlassClassification:
@@ -74,7 +75,8 @@ class TrainerForMulticlassClassification:
                 'macro f1': macro_f1,
                 'micro f1': micro_f1,
                 'weighted f1': weighted_f1,
-                'confusion matrix': c_matrix.tolist()
+                'confusion matrix': c_matrix.tolist(),
+                'preference bias': preference_bias(c_matrix)
             }
             for _id in range(len(self.id2label.keys())):
                 metrics[self.id2label[_id]] = f1[_id]

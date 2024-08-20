@@ -2,6 +2,8 @@ python main.py \
 --lr 4e-6 \
 --total_epochs 5 \
 --total_steps 3000 \
+--eval_steps 200 \
+--save_steps 200 \
 --batch_size 16 \
 --weight_decay 1e-3 \
 --model "roberta-hg" \

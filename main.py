@@ -30,7 +30,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--mode', type=str, default='train')
     parser.add_argument('--load_checkpoint', type=int, default=0)
-    parser.add_argument('--seed', type=int, default=2019)
+    parser.add_argument('--seed', type=int, default=114514)
     parser.add_argument('--model', type=str, required=True)
     parser.add_argument('--dataset', type=str, required=True)
     parser.add_argument('--total_epochs', type=int, default=10)

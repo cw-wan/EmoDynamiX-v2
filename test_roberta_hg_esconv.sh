@@ -1,9 +1,9 @@
 python main.py \
 --mode test \
---load_checkpoint 3000 \
+--load_checkpoint 1400 \
 --lr 4e-6 \
 --total_epochs 5 \
---total_steps 3000 \
+--total_steps 2000 \
 --batch_size 16 \
 --weight_decay 1e-3 \
 --model "roberta-hg" \
