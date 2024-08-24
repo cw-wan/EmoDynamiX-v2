@@ -1,7 +1,7 @@
 python main.py \
 --lr 4e-6 \
---total_epochs 5 \
---total_steps 3000 \
+--total_epochs 8 \
+--total_steps 4000 \
 --eval_steps 200 \
 --save_steps 200 \
 --batch_size 16 \

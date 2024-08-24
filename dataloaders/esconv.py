@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset
+import torch.nn.functional as F
 import pandas as pd
 import json
 import pickle
@@ -67,7 +68,14 @@ class ESConvPreProcessed(Dataset):
                 continue
             self.data.append(d)
             class_counts[d["label"]] += 1
-        self.class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
+        # self.class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
+        # ckpt 1400
+        # self.class_weights = [sum(class_counts) / c for c in class_counts]
+        class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
+        # print(f"class_weights: {class_weights}")
+        class_weights = F.softmax(torch.tensor(class_weights) / 2.)
+        # print(f"class_weights after softmax: {class_weights}")
+        self.class_weights = class_weights
 
     def __len__(self):
         return len(self.data)
