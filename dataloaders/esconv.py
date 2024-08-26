@@ -73,7 +73,7 @@ class ESConvPreProcessed(Dataset):
         # self.class_weights = [sum(class_counts) / c for c in class_counts]
         class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
         # print(f"class_weights: {class_weights}")
-        class_weights = F.softmax(torch.tensor(class_weights) / 2.)
+        class_weights = F.softmax(torch.tensor(class_weights) / 1.75)
         # print(f"class_weights after softmax: {class_weights}")
         self.class_weights = class_weights
 

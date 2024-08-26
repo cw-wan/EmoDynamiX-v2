@@ -1,5 +1,6 @@
 import torch
 from torch.utils.data import Dataset
+import torch.nn.functional as F
 import json
 import pickle
 
@@ -23,7 +24,9 @@ class AnnoMIPreProcessed(Dataset):
                 continue
             self.data.append(d)
             class_counts[d["label"]] += 1
-        self.class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
+        class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
+        class_weights = F.softmax(torch.tensor(class_weights) / 1.75)
+        self.class_weights = class_weights
 
     def __len__(self):
         return len(self.data)
