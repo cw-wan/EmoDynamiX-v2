@@ -10,6 +10,7 @@ from sklearn.metrics import accuracy_score, f1_score, confusion_matrix
 import transformers
 from transformers import AdamW, TrainingArguments
 from metrics import preference_bias
+import numpy as np
 
 
 class TrainerForMulticlassClassification:
@@ -52,13 +53,21 @@ class TrainerForMulticlassClassification:
                     contexts = batch["dialogue_history"]
                     preds = torch.argmax(y_pred, dim=-1).int().cpu().detach().numpy()
                     labels = batch.get("label").detach().numpy()
+                    attention_weights = []
+                    graph_size = len(outputs["graphs"][0]["nodes"]) - 1
+                    for w in outputs["attention_weights"]:
+                        attention_weights.append(w[1].detach().cpu().numpy()[-graph_size:].tolist())
+                    attention_weights = np.array(attention_weights).squeeze().transpose().tolist()
                     for i in range(len(contexts)):
                         cases.append({
                             "dialogue_history": [contexts[i], ],
                             "strategy_history": [batch["strategy_history"][i], ],
                             "speaker_turn": [str(batch["speaker_turn"][i]), ],
                             "prediction": self.id2label[preds[i]],
-                            "label": self.id2label[labels[i]]
+                            "label": self.id2label[labels[i]],
+                            "graph": outputs["graphs"],
+                            "attention_weights": attention_weights,
+                            "erc_logits": outputs["erc_logits"].cpu().detach().numpy().tolist()
                         })
                 predictions.append(torch.argmax(y_pred, dim=-1))
                 truths.append(batch.get("label"))

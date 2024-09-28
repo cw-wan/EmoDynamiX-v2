@@ -4,7 +4,7 @@ python main.py \
 --lr 4e-6 \
 --total_epochs 5 \
 --total_steps 2000 \
---batch_size 16 \
+--batch_size 1 \
 --weight_decay 1e-3 \
 --model "roberta-hg" \
 --dataset "esconv-preprocessed" \

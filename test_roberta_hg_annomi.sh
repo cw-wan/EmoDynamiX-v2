@@ -6,7 +6,7 @@ python main.py \
 --total_steps 1500 \
 --eval_steps 300 \
 --save_steps 300 \
---batch_size 16 \
+--batch_size 1 \
 --weight_decay 1e-3 \
 --model "roberta-hg" \
 --dataset "annomi-preprocessed" \
