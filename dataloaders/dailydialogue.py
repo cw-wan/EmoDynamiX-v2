@@ -13,10 +13,10 @@ def preprocess(dir):
     text_file = 'dialogues_' + dataset + '.txt'
     emotion_file = 'dialogues_emotion_' + dataset + '.txt'
 
-    with open(os.path.join(dir, text_file)) as f:
+    with open(os.path.join(dir, text_file), encoding="utf-8") as f:
         dialogues = f.read().splitlines()
 
-    with open(os.path.join(dir, emotion_file)) as f:
+    with open(os.path.join(dir, emotion_file), encoding="utf-8") as f:
         emotions = f.read().splitlines()
 
     for dialogue, emotion in tqdm(zip(dialogues, emotions)):
