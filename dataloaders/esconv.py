@@ -68,9 +68,6 @@ class ESConvPreProcessed(Dataset):
                 continue
             self.data.append(d)
             class_counts[d["label"]] += 1
-        # self.class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
-        # ckpt 1400
-        # self.class_weights = [sum(class_counts) / c for c in class_counts]
         class_weights = [sum(class_counts) / len(class_counts) / c for c in class_counts]
         # print(f"class_weights: {class_weights}")
         class_weights = F.softmax(torch.tensor(class_weights) / 1.75)

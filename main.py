@@ -57,6 +57,7 @@ if __name__ == '__main__':
     train_set = DATASETS[args.dataset]("train", args)
     valid_set = DATASETS[args.dataset]("valid", args)
     test_set = DATASETS[args.dataset]("test", args)
+    print(f"Total samples: {len(train_set) + len(valid_set) + len(test_set)}")
     train_loader = DataLoader(train_set, batch_size=args.batch_size, shuffle=True, collate_fn=train_set.collate_fn)
     valid_loader = DataLoader(valid_set, batch_size=args.batch_size, shuffle=False, collate_fn=valid_set.collate_fn)
     test_loader = DataLoader(test_set, batch_size=args.batch_size, shuffle=False, collate_fn=test_set.collate_fn)
