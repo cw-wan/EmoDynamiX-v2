@@ -1,6 +1,6 @@
 # EmoDynamiX
 
-Official repo for the ***NAACL 2025 main*** conference paper [EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782).
+Official repo for our ***NAACL 2025 main*** conference paper [EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782).
 
 ## Download Checkpoints
 
@@ -44,3 +44,19 @@ Train on AnnoMI:
 Download weights for the submodules [here](https://drive.google.com/file/d/1KNsoWp1FjdMnrCVWiONRb6w4QUpzGuyP/view?usp=drive_link).
 
 Run `make.py` for ESConv or AnnoMI, then run `preprocess.py`.
+
+## Citation
+
+If you find our work useful, please cite our paper:
+
+```bibtex
+@misc{wan2024emodynamixemotionalsupportdialogue,
+      title={EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics}, 
+      author={Chenwei Wan and Matthieu Labeau and Chloé Clavel},
+      year={2024},
+      eprint={2408.08782},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.08782}, 
+}
+```
