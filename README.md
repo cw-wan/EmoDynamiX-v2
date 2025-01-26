@@ -2,6 +2,8 @@
 
 Official repository of our ***NAACL 2025 main*** conference paper [EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782).
 
+![](architecture.svg)
+
 ## Download Checkpoints
 
 |              Model               |                                                                                        URL                                                                                        |
