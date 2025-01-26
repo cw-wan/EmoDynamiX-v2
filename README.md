@@ -1,8 +1,8 @@
-# EmoDynamiX
+<h1 style="text-align: center;"><img src="img/logo.png" alt="ACL Logo" style="height:1.5em; vertical-align:middle;">EmoDynamiX</h1>
 
-Official repository of our ***NAACL 2025 main*** conference paper [EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782).
+Official repository of our <img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> **NAACL 2025 main** conference paper [EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782).
 
-![](architecture.svg)
+<img src="img/architecture.svg" alt="SVG Image" style="background:white">
 
 ## Download Checkpoints
 
