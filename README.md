@@ -10,6 +10,7 @@ Official repository of our <img src="img/acl-logo.png" alt="ACL Logo" style="hei
 |:--------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
 |       EmoDynamiX on ESConv       |                                           [link](https://drive.google.com/file/d/1pbBH5pbw5bY-35avobkdzqi0gv_bL_pn/view?usp=drive_link)                                           |
 |       EmoDynamiX on AnnoMI       |                                           [link](https://drive.google.com/file/d/1VWhx9xoC7L9roSPeP9hvXjGlyjzs-kY5/view?usp=drive_link)                                           |
+| Pretrained Submodules | [link](https://drive.google.com/file/d/1KNsoWp1FjdMnrCVWiONRb6w4QUpzGuyP/view?usp=drive_link) |
 
 Unzip to the project root directory.
 
@@ -27,7 +28,7 @@ Test on AnnoMI:
 ./test_roberta_hg_annomi.sh
 ```
 
-## Do Your Own Training
+## Training from Scratch
 
 Train on ESConv:
 
@@ -40,12 +41,6 @@ Train on AnnoMI:
 ```shell
 ./train_roberta_hg_annomi.sh
 ```
-
-## Make Your Own Data
-
-Download weights for the submodules [here](https://drive.google.com/file/d/1KNsoWp1FjdMnrCVWiONRb6w4QUpzGuyP/view?usp=drive_link).
-
-Run `make.py` for ESConv or AnnoMI, then run `preprocess.py`.
 
 ## Citation
 
