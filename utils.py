@@ -3,8 +3,6 @@ import random
 import torch
 from sklearn.metrics import f1_score, accuracy_score
 from transformers import EvalPrediction
-from modules.roberta import RobertaHeterogeneousGraph
-import argparse
 
 
 def seed_everything(seed):
@@ -46,22 +44,3 @@ def compute_metrics(p: EvalPrediction):
         predictions=preds,
         labels=p.label_ids)
     return result
-
-
-def load_full_model(checkpoint_path):
-    class Args:
-        mode = "test"
-        exclude_others = 0
-        erc_temperature = 0.5
-        erc_mixed = 1
-        hg_dim = 512
-        model = "roberta-hg"
-        dataset = "esconv-preprocessed"
-
-    # load model
-    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    model = RobertaHeterogeneousGraph(Args, lightmode=False)
-    model.load(checkpoint_path)
-    model.to(device)
-    model.eval()
-    return model
