@@ -6,9 +6,7 @@ Official repository of our <img src="img/acl-logo.png" alt="ACL Logo" style="hei
 
 ## Usage
 
-[DEMO.ipynb](DEMO.ipynb) shows an example of using EmoDynamiX, you could integrate it with any LLM you like to make your own strategy-controlled ESC agent!
-
-But you need to download checkpoints first:
+[DEMO.ipynb](DEMO.ipynb) shows an example of using EmoDynamiX. You could integrate EmoDynamiX with any LLM you like to make your own strategy-controlled ESC agent!
 
 ## Download Checkpoints
 
