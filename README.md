@@ -53,13 +53,22 @@ Train on AnnoMI:
 If you find our work useful, please cite our paper:
 
 ```bibtex
-@misc{wan2024emodynamixemotionalsupportdialogue,
-      title={EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics}, 
-      author={Chenwei Wan and Matthieu Labeau and Chloé Clavel},
-      year={2024},
-      eprint={2408.08782},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2408.08782}, 
+@inproceedings{wan-etal-2025-emodynamix,
+    title = "{E}mo{D}ynami{X}: Emotional Support Dialogue Strategy Prediction by Modelling {M}i{X}ed Emotions and Discourse Dynamics",
+    author = "Wan, Chenwei  and
+      Labeau, Matthieu  and
+      Clavel, Chlo{\'e}",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.81/",
+    pages = "1678--1695",
+    ISBN = "979-8-89176-189-6",
+    abstract = "Designing emotionally intelligent conversational systems to provide comfort and advice to people experiencing distress is a compelling area of research. Recently, with advancements in large language models (LLMs), end-to-end dialogue agents without explicit strategy prediction steps have become prevalent. However, implicit strategy planning lacks transparency, and recent studies show that LLMs' inherent preference bias towards certain socio-emotional strategies hinders the delivery of high-quality emotional support. To address this challenge, we propose decoupling strategy prediction from language generation, and introduce a novel dialogue strategy prediction framework, EmoDynamiX, which models the discourse dynamics between user fine-grained emotions and system strategies using a heterogeneous graph for better performance and transparency. Experimental results on two ESC datasets show EmoDynamiX outperforms previous state-of-the-art methods with a significant margin (better proficiency and lower preference bias). Our approach also exhibits better transparency by allowing backtracing of decision making."
 }
 ```
