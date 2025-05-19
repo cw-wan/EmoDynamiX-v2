@@ -1,10 +1,12 @@
 <br />
 <p align="center">
-  <h1 align="center">EmoDynamiX</h1>
+  <h1 align="center"><img src="img/logo.png" alt="Logo" style="height:1em; vertical-align:middle;">EmoDynamiX</h1>
   <h3 align="center">Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics</h3>
   
   <p align="center">  
-    <a href="https://aclanthology.org/2025.naacl-long.81/"><img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> ACL Anthology</a>
+    <a href="https://aclanthology.org/2025.naacl-long.81/">Paper</a>
+    ·
+    <a href="https://github.com/cw-wan/EmoDynamiX-v2/blob/master/Slides.pdf">Slides</a>
   </p>
 </p>
 
