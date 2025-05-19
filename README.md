@@ -1,8 +1,12 @@
-<h1 style="text-align: center;">EmoDynamiX</h1>
-
-Official repository of our <img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> **NAACL 2025 main** conference paper:
-
-[EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://aclanthology.org/2025.naacl-long.81/).
+<br />
+<p align="center">
+  <h1 align="center">EmoDynamiX</h1>
+  <h3 align="center">Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics</h3>
+  
+  <p align="center">  
+    <a href="https://aclanthology.org/2025.naacl-long.81/"><img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> ACL Anthology</a>
+  </p>
+</p>
 
 ![](img/architecture.jpg)
 
