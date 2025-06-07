@@ -72,6 +72,7 @@ If you find our work useful, please cite our paper:
     address = "Albuquerque, New Mexico",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2025.naacl-long.81/",
+    doi = "10.18653/v1/2025.naacl-long.81",
     pages = "1678--1695",
     ISBN = "979-8-89176-189-6"
 }
