@@ -59,21 +59,25 @@ If you find our work useful, please cite our paper:
 
 ```bibtex
 @inproceedings{wan-etal-2025-emodynamix,
-    title = "{E}mo{D}ynami{X}: Emotional Support Dialogue Strategy Prediction by Modelling {M}i{X}ed Emotions and Discourse Dynamics",
-    author = "Wan, Chenwei  and
-      Labeau, Matthieu  and
-      Clavel, Chlo{\'e}",
-    editor = "Chiruzzo, Luis  and
-      Ritter, Alan  and
-      Wang, Lu",
-    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
-    month = apr,
-    year = "2025",
-    address = "Albuquerque, New Mexico",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2025.naacl-long.81/",
-    doi = "10.18653/v1/2025.naacl-long.81",
-    pages = "1678--1695",
-    ISBN = "979-8-89176-189-6"
+  author       = {Chenwei Wan and
+                  Matthieu Labeau and
+                  Chlo{\'{e}} Clavel},
+  editor       = {Luis Chiruzzo and
+                  Alan Ritter and
+                  Lu Wang},
+  title        = {EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling
+                  MiXed Emotions and Discourse Dynamics},
+  booktitle    = {Proceedings of the 2025 Conference of the Nations of the Americas
+                  Chapter of the Association for Computational Linguistics: Human Language
+                  Technologies, {NAACL} 2025 - Volume 1: Long Papers, Albuquerque, New
+                  Mexico, USA, April 29 - May 4, 2025},
+  pages        = {1678--1695},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2025},
+  url          = {https://doi.org/10.18653/v1/2025.naacl-long.81},
+  doi          = {10.18653/V1/2025.NAACL-LONG.81},
+  timestamp    = {Fri, 13 Jun 2025 08:28:21 +0200},
+  biburl       = {https://dblp.org/rec/conf/naacl/WanLC25.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
 ```
