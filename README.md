@@ -9,7 +9,7 @@
     ·
     <a href="https://github.com/cw-wan/EmoDynamiX-v2/blob/master/Poster_EmoDynamiX_TALN_2025.pdf">Poster*</a>
   </p>
-  <span>* <i>Poster presented at <a href="https://coria-taln-2025.lis-lab.fr/">CORIA-TALN 2025</a>.</i></span>
+  <span><small>* <i>Poster presented at <a href="https://coria-taln-2025.lis-lab.fr/">CORIA-TALN 2025</a>.</i></small></span>
 </p>
 
 ![](img/architecture.jpg)
