@@ -6,7 +6,10 @@
     <a href="https://arxiv.org/pdf/2408.08782">Paper</a>
     ·
     <a href="https://github.com/cw-wan/EmoDynamiX-v2/blob/master/Slides.pdf">Slides</a>
+    ·
+    <a href="https://github.com/cw-wan/EmoDynamiX-v2/blob/master/Poster_EmoDynamiX_TALN_2025.pdf">Poster*</a>
   </p>
+  <span>* <i>Poster presented at CORIA-TALN 2025.</i></span>
 </p>
 
 ![](img/architecture.jpg)
