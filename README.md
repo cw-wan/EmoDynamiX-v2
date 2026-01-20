@@ -3,7 +3,7 @@
   <h3 align="center">Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics</h3>
   <h4 align="center"><img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> <i>NAACL 2025 Oral</i></h4>
   <p align="center">  
-    <a href="https://arxiv.org/pdf/2408.08782">Paper</a>
+    <a href="https://hal.science/hal-05466118">Paper</a>
     ·
     <a href="https://github.com/cw-wan/EmoDynamiX-v2/blob/master/Slides.pdf">Slides</a>
     ·
