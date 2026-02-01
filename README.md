@@ -72,7 +72,6 @@ If you find our work useful, please cite our paper:
   YEAR = {2025},
   MONTH = Apr,
   DOI = {10.18653/v1/2025.naacl-long.81},
-  PDF = {https://hal.science/hal-05466118v1/file/NAACL_25_Chenwei%20%281%29.pdf},
   HAL_ID = {hal-05466118},
   HAL_VERSION = {v1},
 }
