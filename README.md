@@ -62,25 +62,18 @@ If you find our work useful, please cite our paper:
 
 ```bibtex
 @inproceedings{wan-etal-2025-emodynamix,
-  author       = {Chenwei Wan and
-                  Matthieu Labeau and
-                  Chlo{\'{e}} Clavel},
-  editor       = {Luis Chiruzzo and
-                  Alan Ritter and
-                  Lu Wang},
-  title        = {EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling
-                  MiXed Emotions and Discourse Dynamics},
-  booktitle    = {Proceedings of the 2025 Conference of the Nations of the Americas
-                  Chapter of the Association for Computational Linguistics: Human Language
-                  Technologies, {NAACL} 2025 - Volume 1: Long Papers, Albuquerque, New
-                  Mexico, USA, April 29 - May 4, 2025},
-  pages        = {1678--1695},
-  publisher    = {Association for Computational Linguistics},
-  year         = {2025},
-  url          = {https://doi.org/10.18653/v1/2025.naacl-long.81},
-  doi          = {10.18653/V1/2025.NAACL-LONG.81},
-  timestamp    = {Fri, 13 Jun 2025 08:28:21 +0200},
-  biburl       = {https://dblp.org/rec/conf/naacl/WanLC25.bib},
-  bibsource    = {dblp computer science bibliography, https://dblp.org}
+  TITLE = {{EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics}},
+  AUTHOR = {Wan, Sky Chenwei and Labeau, Matthieu and Clavel, Chlo{\'e}},
+  URL = {https://hal.science/hal-05466118},
+  BOOKTITLE = {{Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)}},
+  ADDRESS = {Albuquerque, United States},
+  PUBLISHER = {{Association for Computational Linguistics}},
+  PAGES = {1678-1695},
+  YEAR = {2025},
+  MONTH = Apr,
+  DOI = {10.18653/v1/2025.naacl-long.81},
+  PDF = {https://hal.science/hal-05466118v1/file/NAACL_25_Chenwei%20%281%29.pdf},
+  HAL_ID = {hal-05466118},
+  HAL_VERSION = {v1},
 }
 ```
