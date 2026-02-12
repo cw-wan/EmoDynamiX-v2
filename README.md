@@ -60,7 +60,7 @@ Train on AnnoMI:
 
 Snapshot taken from [AFlow](https://arxiv.org/abs/2602.08826) (2026).
 
-<img width="3018" height="1690" alt="AFlow" src="https://github.com/user-attachments/assets/32d16a98-3754-4a00-8d18-94bfa72b67ec" />
+<img width="4068" height="2194" alt="EmoDx_benchmark_performance" src="https://github.com/user-attachments/assets/7855ce08-101e-453a-aa0d-483af9014e4f" />
 
 ## Citation
 
