@@ -20,7 +20,7 @@ EmoDynamiX is a strong, lightweight baseline for Emotional Support Conversation.
 
 <img width="4068" height="2194" alt="EmoDx_benchmark_performance" src="https://github.com/user-attachments/assets/7855ce08-101e-453a-aa0d-483af9014e4f" />
 
-## Usage
+## Quick Start
 
 [DEMO.ipynb](DEMO.ipynb) shows an example of using EmoDynamiX. You could integrate EmoDynamiX with any LLM you like to make your own strategy-controlled ESC agent!
 
