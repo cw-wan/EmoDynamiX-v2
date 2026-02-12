@@ -56,6 +56,12 @@ Train on AnnoMI:
 ./train_roberta_hg_annomi.sh
 ```
 
+## Dialog Benchmark Performance
+
+Snapshot taken from [AFlow](https://arxiv.org/abs/2602.08826) (2026).
+
+<img width="3018" height="1690" alt="AFlow" src="https://github.com/user-attachments/assets/32d16a98-3754-4a00-8d18-94bfa72b67ec" />
+
 ## Citation
 
 If you find our work useful, please cite our paper:
