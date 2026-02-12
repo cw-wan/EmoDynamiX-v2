@@ -16,7 +16,7 @@
 
 ## ESC Benchmark Performance
 
-EmoDynamiX is a strong, lightweight baseline for Emotional Support Conversation. According to a comprehensive benchmark on diverse dialog metrics ([AFlow](https://arxiv.org/abs/2602.08826), 2026), EmoDynamiX is the best in the Strategy & Knowledge model category, outperforming task- and interpretability-oriented ESC systems. It is also competitive against strong baselines like social simulation, multi-agent systems, and proprietary LLM baselines (GPT-4o and Claude-3.5).
+EmoDynamiX is a strong, lightweight baseline for Emotional Support Conversation. According to a comprehensive benchmark on diverse dialog metrics ([AFlow](https://arxiv.org/abs/2602.08826), 2026), EmoDynamiX is the best in the Strategy & Knowledge model category, outperforming task- and interpretability-oriented ESC systems. It is also competitive against strong, heavier baselines like social simulation, multi-agent ESC, value RL, and proprietary LLM baselines (GPT-4o and Claude-3.5).
 
 <img width="4068" height="2194" alt="EmoDx_benchmark_performance" src="https://github.com/user-attachments/assets/7855ce08-101e-453a-aa0d-483af9014e4f" />
 
