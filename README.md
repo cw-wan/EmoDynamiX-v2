@@ -1,7 +1,7 @@
 <p align="center">
   <h1 align="center"><img src="img/logo.png" alt="Logo" style="height:1em; vertical-align:middle;"> EmoDynamiX</h1>
   <h3 align="center">Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics</h3>
-  <h4 align="center"><img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> <i>NAACL 2025 Oral</i></h4>
+  <h4 align="center"><img src="img/acl-logo.png" alt="ACL Logo" style="height:1em; vertical-align:middle;"> NAACL 2025 <i>Oral</i></h4>
   <p align="center">  
     <a href="https://arxiv.org/abs/2408.08782">Paper</a>
     ·
