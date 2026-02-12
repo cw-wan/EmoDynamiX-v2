@@ -56,7 +56,7 @@ Train on AnnoMI:
 ./train_roberta_hg_annomi.sh
 ```
 
-## Dialog Benchmark Performance
+## ESC Benchmark Performance
 
 Snapshot taken from [AFlow](https://arxiv.org/abs/2602.08826) (2026).
 
