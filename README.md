@@ -30,7 +30,7 @@ from EmoDynamiX import EmoDynamiX
 # Load EmoDynamiX
 model = EmoDynamiX(dataset="esconv", checkpoint_path="...")
 
-# Compare dialog context
+# Prepare dialog context
 dialog = [
     {
         'text': "I don't want to have anything to do with her again.",
