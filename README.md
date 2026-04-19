@@ -24,6 +24,43 @@ EmoDynamiX is a strong, lightweight baseline for Emotional Support Conversation.
 
 [DEMO.ipynb](DEMO.ipynb) shows an example of using EmoDynamiX. You could integrate EmoDynamiX with any LLM you like to make your own strategy-controlled ESC agent!
 
+```python
+from EmoDynamiX import EmoDynamiX
+
+# Load EmoDynamiX
+model = EmoDynamiX(dataset="esconv", checkpoint_path="...")
+
+# Compare dialog context
+dialog = [
+    {
+        'text': "I don't want to have anything to do with her again.",
+        'speaker': 'usr',
+    },
+    {
+        'text': "Do you feel that her actions and result can be remedied? Or is this such a fundamental break that you cannot reconcile?",
+        'speaker': 'sys',
+        'strategy': 'Question'
+    },
+    {
+        'text': "I just want to move on with my life.",
+        'speaker': 'usr',
+    },
+    {
+        'text': "Understandable. I would feel similar, in truth.",
+        'speaker': 'sys',
+        'strategy': 'Reflection of feelings'
+    },
+    {
+        'text': "I don't that I can love her again.",
+        'speaker': 'usr',
+    }
+]
+
+# Make prediction
+output = model.predict(dialog)
+output["next_strategy"]
+```
+
 ## Download Checkpoints
 
 |              Model               |                                                                                        URL                                                                                        |
